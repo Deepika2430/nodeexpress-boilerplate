@@ -1,6 +1,6 @@
 import { writeFileSync } from 'fs';
 
-import mediaRecords from './media_records.json';
+import mediaRecords from "./media-records.json";
 
 const updatedMediaRecords = mediaRecords.map((media) => {
     const customParams = media.customParameters.reduce((acc, customParameter) => {

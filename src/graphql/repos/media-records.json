@@ -1,0 +1,3796 @@
+[
+  {
+    "mediaId": "fd6414db-1db1-4e53-9014-ce1b6e468872",
+    "title": "A Guide to technology",
+    "status": "Published",
+    "mediaType": "Audio",
+    "contentType": "Photography",
+    "duration": 120,
+    "publishDate": "2024-08-21 01:45:52",
+    "tags": "relaxation,technology",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image0.jpg",
+        "alt": "Sample image 0"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_0.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video0.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.304888",
+    "updatedAt": "2024-11-15 07:09:41.304892"
+  },
+  {
+    "mediaId": "fb1d85aa-1626-4ffd-8720-7eadb58a3800",
+    "title": "Deep Dive into photography",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Wellness",
+    "duration": 19,
+    "publishDate": "2023-01-24 05:45:17",
+    "tags": "fitness",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image1.jpg",
+        "alt": "Sample image 1"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_1.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video1.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.305010",
+    "updatedAt": "2024-11-15 07:09:41.305012"
+  },
+  {
+    "mediaId": "849757b2-f7be-4bfe-90d0-b9e5a4d7533b",
+    "title": "Journey Through learning",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Entertainment",
+    "duration": 194,
+    "publishDate": "2024-01-15 14:21:34",
+    "tags": "fitness,technology",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image2.jpg",
+        "alt": "Sample image 2"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video2.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.305386",
+    "updatedAt": "2024-11-15 07:09:41.305392"
+  },
+  {
+    "mediaId": "139c20a4-ad9a-4996-b2f2-0fb16b7d5234",
+    "title": "Journey Through photography",
+    "status": "Draft",
+    "mediaType": "Video",
+    "contentType": "Tutorial",
+    "duration": 254,
+    "publishDate": "2024-04-20 03:04:26",
+    "tags": "technology",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image3.jpg",
+        "alt": "Sample image 3"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video3.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.305505",
+    "updatedAt": "2024-11-15 07:09:41.305510"
+  },
+  {
+    "mediaId": "47bddb91-f183-4f5b-af21-949e332b3867",
+    "title": "Journey Through health",
+    "status": "Published",
+    "mediaType": "Video",
+    "contentType": "Documentary",
+    "duration": 236,
+    "publishDate": "2024-12-23 02:22:41",
+    "tags": "health,photography,adventure",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image4.jpg",
+        "alt": "Sample image 4"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video4.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.305614",
+    "updatedAt": "2024-11-15 07:09:41.305618"
+  },
+  {
+    "mediaId": "b1ecfadd-7e64-4565-aef4-7d2350bfd702",
+    "title": "Exploring technology",
+    "status": "Published",
+    "mediaType": "Video",
+    "contentType": "Tutorial",
+    "duration": 287,
+    "publishDate": "2024-12-12 23:03:18",
+    "tags": "relaxation,health,photography",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image5.jpg",
+        "alt": "Sample image 5"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video5.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.305974",
+    "updatedAt": "2024-11-15 07:09:41.305977"
+  },
+  {
+    "mediaId": "d4953b70-0b62-41a3-b352-9d405f876cb1",
+    "title": "Journey Through fitness",
+    "status": "Published",
+    "mediaType": "Image",
+    "contentType": "Tutorial",
+    "duration": 196,
+    "publishDate": "2024-08-26 14:17:11",
+    "tags": "photography,learning,health",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image6.jpg",
+        "alt": "Sample image 6"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_6.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video6.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.306061",
+    "updatedAt": "2024-11-15 07:09:41.306063"
+  },
+  {
+    "mediaId": "60b49d58-2835-4079-b22b-6624fd20ab5b",
+    "title": "Deep Dive into health",
+    "status": "Draft",
+    "mediaType": "Audio",
+    "contentType": "Entertainment",
+    "duration": 291,
+    "publishDate": "2024-01-28 22:37:47",
+    "tags": "adventure",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image7.jpg",
+        "alt": "Sample image 7"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video7.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.306112",
+    "updatedAt": "2024-11-15 07:09:41.306115"
+  },
+  {
+    "mediaId": "38b38b52-d892-49fd-9aaa-cf84c9e89983",
+    "title": "Deep Dive into relaxation",
+    "status": "Published",
+    "mediaType": "Image",
+    "contentType": "Documentary",
+    "duration": 297,
+    "publishDate": "2023-09-14 08:53:08",
+    "tags": "fitness,health",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image8.jpg",
+        "alt": "Sample image 8"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video8.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.306165",
+    "updatedAt": "2024-11-15 07:09:41.306167"
+  },
+  {
+    "mediaId": "4898eb0f-c329-4617-9282-2bc6fd3c8062",
+    "title": "A Guide to learning",
+    "status": "Published",
+    "mediaType": "Video",
+    "contentType": "Documentary",
+    "duration": 248,
+    "publishDate": "2023-06-29 20:28:17",
+    "tags": "fitness,learning",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image9.jpg",
+        "alt": "Sample image 9"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_9.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video9.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.306212",
+    "updatedAt": "2024-11-15 07:09:41.306214"
+  },
+  {
+    "mediaId": "c5f8f083-4607-4330-92e8-ed14999298f5",
+    "title": "Exploring adventure",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Documentary",
+    "duration": 182,
+    "publishDate": "2024-06-26 20:50:37",
+    "tags": "adventure,relaxation",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image10.jpg",
+        "alt": "Sample image 10"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video10.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.306367",
+    "updatedAt": "2024-11-15 07:09:41.306370"
+  },
+  {
+    "mediaId": "e662817b-7875-49b1-8a35-4df56e070ba0",
+    "title": "Deep Dive into health",
+    "status": "Published",
+    "mediaType": "Audio",
+    "contentType": "Wellness",
+    "duration": 45,
+    "publishDate": "2023-10-21 15:38:55",
+    "tags": "learning,relaxation",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image11.jpg",
+        "alt": "Sample image 11"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video11.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.306425",
+    "updatedAt": "2024-11-15 07:09:41.306427"
+  },
+  {
+    "mediaId": "1309b456-0e7e-4146-a8bb-e97cfd728094",
+    "title": "Deep Dive into photography",
+    "status": "Draft",
+    "mediaType": "Video",
+    "contentType": "Wellness",
+    "duration": 137,
+    "publishDate": "2023-03-02 03:58:47",
+    "tags": "adventure",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image12.jpg",
+        "alt": "Sample image 12"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video12.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.306475",
+    "updatedAt": "2024-11-15 07:09:41.306485"
+  },
+  {
+    "mediaId": "92748686-7939-4ccf-9d72-50664d974a01",
+    "title": "Understanding learning",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Wellness",
+    "duration": 191,
+    "publishDate": "2023-10-23 19:16:59",
+    "tags": "learning,health,photography",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image13.jpg",
+        "alt": "Sample image 13"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_13.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video13.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.306544",
+    "updatedAt": "2024-11-15 07:09:41.306546"
+  },
+  {
+    "mediaId": "6483b1d0-df1b-437f-b6e2-dd7c85ab04c0",
+    "title": "Exploring photography",
+    "status": "Draft",
+    "mediaType": "Audio",
+    "contentType": "Tutorial",
+    "duration": 50,
+    "publishDate": "2023-08-21 02:03:27",
+    "tags": "adventure",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image14.jpg",
+        "alt": "Sample image 14"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_14.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video14.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.306585",
+    "updatedAt": "2024-11-15 07:09:41.306586"
+  },
+  {
+    "mediaId": "fc60b3e0-b2ee-49b5-8136-6289eeb59803",
+    "title": "Deep Dive into adventure",
+    "status": "Draft",
+    "mediaType": "Audio",
+    "contentType": "Documentary",
+    "duration": 177,
+    "publishDate": "2023-05-26 22:52:08",
+    "tags": "adventure",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image15.jpg",
+        "alt": "Sample image 15"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_15.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video15.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.306626",
+    "updatedAt": "2024-11-15 07:09:41.306629"
+  },
+  {
+    "mediaId": "ea2fd980-481f-45b3-ab5b-a8d2ce36a9a5",
+    "title": "Understanding relaxation",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Tutorial",
+    "duration": 53,
+    "publishDate": "2023-05-17 14:11:16",
+    "tags": "fitness",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image16.jpg",
+        "alt": "Sample image 16"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video16.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.306695",
+    "updatedAt": "2024-11-15 07:09:41.306697"
+  },
+  {
+    "mediaId": "a06b1387-3d97-43e5-ba47-abe9362fd924",
+    "title": "Deep Dive into relaxation",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Wellness",
+    "duration": 46,
+    "publishDate": "2024-05-20 02:02:10",
+    "tags": "learning,technology,health",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image17.jpg",
+        "alt": "Sample image 17"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_17.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video17.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.306733",
+    "updatedAt": "2024-11-15 07:09:41.306734"
+  },
+  {
+    "mediaId": "6989e026-ed31-4c15-bba6-bbe84b0588c0",
+    "title": "Journey Through learning",
+    "status": "Published",
+    "mediaType": "Video",
+    "contentType": "Photography",
+    "duration": 185,
+    "publishDate": "2024-12-12 21:57:28",
+    "tags": "technology,learning",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image18.jpg",
+        "alt": "Sample image 18"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video18.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.306774",
+    "updatedAt": "2024-11-15 07:09:41.306776"
+  },
+  {
+    "mediaId": "004df3ec-fccf-428f-b40d-e8b0dca3286a",
+    "title": "Journey Through learning",
+    "status": "Published",
+    "mediaType": "Image",
+    "contentType": "Tutorial",
+    "duration": 191,
+    "publishDate": "2024-12-14 18:21:40",
+    "tags": "health,relaxation,photography",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image19.jpg",
+        "alt": "Sample image 19"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video19.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.306820",
+    "updatedAt": "2024-11-15 07:09:41.306822"
+  },
+  {
+    "mediaId": "82d01d77-9fb4-4d09-8cf6-c32af3b82e8f",
+    "title": "Exploring learning",
+    "status": "Published",
+    "mediaType": "Video",
+    "contentType": "Documentary",
+    "duration": 274,
+    "publishDate": "2023-07-12 04:21:51",
+    "tags": "adventure,photography",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image20.jpg",
+        "alt": "Sample image 20"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_20.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video20.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.306969",
+    "updatedAt": "2024-11-15 07:09:41.306973"
+  },
+  {
+    "mediaId": "30926c7b-c505-47cb-a2a0-90c3f2ac08ca",
+    "title": "Understanding fitness",
+    "status": "Published",
+    "mediaType": "Image",
+    "contentType": "Documentary",
+    "duration": 256,
+    "publishDate": "2024-12-24 17:55:37",
+    "tags": "adventure,photography,fitness",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image21.jpg",
+        "alt": "Sample image 21"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video21.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307031",
+    "updatedAt": "2024-11-15 07:09:41.307033"
+  },
+  {
+    "mediaId": "7c1a1a11-1455-4e17-ac36-2d28f150c2aa",
+    "title": "Exploring photography",
+    "status": "Draft",
+    "mediaType": "Audio",
+    "contentType": "Tutorial",
+    "duration": 52,
+    "publishDate": "2024-12-11 06:31:42",
+    "tags": "adventure,learning",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image22.jpg",
+        "alt": "Sample image 22"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_22.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video22.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307080",
+    "updatedAt": "2024-11-15 07:09:41.307082"
+  },
+  {
+    "mediaId": "d20b393b-da6a-476c-a0b1-e2e67558e27c",
+    "title": "A Guide to relaxation",
+    "status": "Published",
+    "mediaType": "Image",
+    "contentType": "Wellness",
+    "duration": 170,
+    "publishDate": "2023-08-25 21:56:00",
+    "tags": "technology,photography,health",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image23.jpg",
+        "alt": "Sample image 23"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video23.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307132",
+    "updatedAt": "2024-11-15 07:09:41.307133"
+  },
+  {
+    "mediaId": "d6a43bbd-ee0e-4cd2-9431-ff16b81ff685",
+    "title": "Journey Through health",
+    "status": "Published",
+    "mediaType": "Image",
+    "contentType": "Documentary",
+    "duration": 149,
+    "publishDate": "2024-02-02 23:25:10",
+    "tags": "fitness,health",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image24.jpg",
+        "alt": "Sample image 24"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video24.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307176",
+    "updatedAt": "2024-11-15 07:09:41.307178"
+  },
+  {
+    "mediaId": "05e02a1d-3e2d-4ec4-b1e9-5618b5bf0bd7",
+    "title": "Exploring relaxation",
+    "status": "Published",
+    "mediaType": "Audio",
+    "contentType": "Tutorial",
+    "duration": 94,
+    "publishDate": "2024-08-01 08:29:31",
+    "tags": "relaxation,health,adventure",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image25.jpg",
+        "alt": "Sample image 25"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video25.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307209",
+    "updatedAt": "2024-11-15 07:09:41.307211"
+  },
+  {
+    "mediaId": "cd5439b4-9052-4ad6-82cb-38825eda4a04",
+    "title": "Deep Dive into health",
+    "status": "Published",
+    "mediaType": "Audio",
+    "contentType": "Photography",
+    "duration": 14,
+    "publishDate": "2023-11-19 04:46:23",
+    "tags": "adventure",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image26.jpg",
+        "alt": "Sample image 26"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video26.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307242",
+    "updatedAt": "2024-11-15 07:09:41.307245"
+  },
+  {
+    "mediaId": "337c7529-621a-4621-9d9d-c9b8f096ee0d",
+    "title": "Understanding learning",
+    "status": "Published",
+    "mediaType": "Image",
+    "contentType": "Entertainment",
+    "duration": 254,
+    "publishDate": "2024-08-27 09:43:33",
+    "tags": "adventure",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image27.jpg",
+        "alt": "Sample image 27"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_27.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video27.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307285",
+    "updatedAt": "2024-11-15 07:09:41.307287"
+  },
+  {
+    "mediaId": "e731bfcc-d3f7-4787-a472-189247db0335",
+    "title": "Understanding learning",
+    "status": "Published",
+    "mediaType": "Image",
+    "contentType": "Wellness",
+    "duration": 157,
+    "publishDate": "2023-03-06 15:53:50",
+    "tags": "adventure,technology,learning",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image28.jpg",
+        "alt": "Sample image 28"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_28.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video28.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307311",
+    "updatedAt": "2024-11-15 07:09:41.307313"
+  },
+  {
+    "mediaId": "a3771abd-ffb5-4eb1-a64c-5e7708987180",
+    "title": "Exploring fitness",
+    "status": "Draft",
+    "mediaType": "Video",
+    "contentType": "Photography",
+    "duration": 221,
+    "publishDate": "2024-02-23 00:39:16",
+    "tags": "technology,photography,adventure",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image29.jpg",
+        "alt": "Sample image 29"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video29.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307352",
+    "updatedAt": "2024-11-15 07:09:41.307354"
+  },
+  {
+    "mediaId": "684dc208-e3c9-476a-9618-ed1af0dd8395",
+    "title": "Deep Dive into photography",
+    "status": "Published",
+    "mediaType": "Audio",
+    "contentType": "Documentary",
+    "duration": 32,
+    "publishDate": "2024-12-07 20:51:06",
+    "tags": "adventure,learning,photography",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image30.jpg",
+        "alt": "Sample image 30"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_30.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video30.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307501",
+    "updatedAt": "2024-11-15 07:09:41.307505"
+  },
+  {
+    "mediaId": "e00531eb-ce69-462f-981b-2353169d9e87",
+    "title": "Deep Dive into technology",
+    "status": "Draft",
+    "mediaType": "Video",
+    "contentType": "Wellness",
+    "duration": 217,
+    "publishDate": "2024-07-28 10:12:58",
+    "tags": "learning,relaxation,fitness",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image31.jpg",
+        "alt": "Sample image 31"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_31.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video31.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307560",
+    "updatedAt": "2024-11-15 07:09:41.307563"
+  },
+  {
+    "mediaId": "85b08e40-a391-4023-94b5-acda6a9fca23",
+    "title": "Deep Dive into adventure",
+    "status": "Draft",
+    "mediaType": "Audio",
+    "contentType": "Documentary",
+    "duration": 206,
+    "publishDate": "2024-02-13 16:39:57",
+    "tags": "adventure,health,photography",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image32.jpg",
+        "alt": "Sample image 32"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_32.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video32.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307609",
+    "updatedAt": "2024-11-15 07:09:41.307611"
+  },
+  {
+    "mediaId": "16f75201-62ed-4345-8c67-c75f15a81eab",
+    "title": "Deep Dive into adventure",
+    "status": "Published",
+    "mediaType": "Image",
+    "contentType": "Documentary",
+    "duration": 88,
+    "publishDate": "2024-01-18 00:49:09",
+    "tags": "relaxation,learning",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image33.jpg",
+        "alt": "Sample image 33"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video33.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307647",
+    "updatedAt": "2024-11-15 07:09:41.307648"
+  },
+  {
+    "mediaId": "40b3db87-1232-495b-89c3-fc9c4d232655",
+    "title": "Understanding relaxation",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Tutorial",
+    "duration": 67,
+    "publishDate": "2024-07-19 22:44:40",
+    "tags": "technology,learning,adventure",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image34.jpg",
+        "alt": "Sample image 34"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_34.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video34.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307689",
+    "updatedAt": "2024-11-15 07:09:41.307692"
+  },
+  {
+    "mediaId": "8cc08f17-a9b2-4ed5-b81f-52b4579fd3e9",
+    "title": "Journey Through health",
+    "status": "Published",
+    "mediaType": "Audio",
+    "contentType": "Wellness",
+    "duration": 211,
+    "publishDate": "2024-03-29 16:16:37",
+    "tags": "technology,fitness",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image35.jpg",
+        "alt": "Sample image 35"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video35.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307745",
+    "updatedAt": "2024-11-15 07:09:41.307747"
+  },
+  {
+    "mediaId": "8c6e1228-3633-4fde-9418-a5a12542dd87",
+    "title": "A Guide to photography",
+    "status": "Published",
+    "mediaType": "Image",
+    "contentType": "Photography",
+    "duration": 71,
+    "publishDate": "2023-05-27 15:43:41",
+    "tags": "learning,fitness,health",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image36.jpg",
+        "alt": "Sample image 36"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video36.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307781",
+    "updatedAt": "2024-11-15 07:09:41.307783"
+  },
+  {
+    "mediaId": "f8727c6a-9051-47f2-8542-77d00c286a3f",
+    "title": "Journey Through adventure",
+    "status": "Published",
+    "mediaType": "Video",
+    "contentType": "Documentary",
+    "duration": 1,
+    "publishDate": "2024-04-05 23:29:07",
+    "tags": "adventure,fitness",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image37.jpg",
+        "alt": "Sample image 37"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video37.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307813",
+    "updatedAt": "2024-11-15 07:09:41.307816"
+  },
+  {
+    "mediaId": "ea95a006-80bc-4dab-b95e-dcf7dac7dc23",
+    "title": "Understanding technology",
+    "status": "Published",
+    "mediaType": "Image",
+    "contentType": "Tutorial",
+    "duration": 66,
+    "publishDate": "2024-11-10 18:17:59",
+    "tags": "fitness,technology,adventure",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image38.jpg",
+        "alt": "Sample image 38"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video38.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307847",
+    "updatedAt": "2024-11-15 07:09:41.307848"
+  },
+  {
+    "mediaId": "8767d6f3-2277-4e41-92b6-beb1979ab23a",
+    "title": "Understanding learning",
+    "status": "Published",
+    "mediaType": "Audio",
+    "contentType": "Entertainment",
+    "duration": 87,
+    "publishDate": "2024-01-23 19:41:53",
+    "tags": "health,photography",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image39.jpg",
+        "alt": "Sample image 39"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video39.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307886",
+    "updatedAt": "2024-11-15 07:09:41.307888"
+  },
+  {
+    "mediaId": "d499e88a-fd54-4a96-8ce7-763c4df5a299",
+    "title": "Understanding relaxation",
+    "status": "Draft",
+    "mediaType": "Audio",
+    "contentType": "Tutorial",
+    "duration": 91,
+    "publishDate": "2024-03-04 14:39:04",
+    "tags": "health",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image40.jpg",
+        "alt": "Sample image 40"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_40.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video40.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307942",
+    "updatedAt": "2024-11-15 07:09:41.307944"
+  },
+  {
+    "mediaId": "127f1ac4-0cef-4fb0-b0ff-e91d45c42e23",
+    "title": "Exploring adventure",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Photography",
+    "duration": 131,
+    "publishDate": "2023-12-22 11:38:37",
+    "tags": "adventure",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image41.jpg",
+        "alt": "Sample image 41"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video41.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.307982",
+    "updatedAt": "2024-11-15 07:09:41.307985"
+  },
+  {
+    "mediaId": "6568c5c9-233d-4aa6-bc1d-55be912473b3",
+    "title": "A Guide to learning",
+    "status": "Draft",
+    "mediaType": "Audio",
+    "contentType": "Entertainment",
+    "duration": 231,
+    "publishDate": "2023-08-27 04:07:44",
+    "tags": "technology,relaxation,photography",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image42.jpg",
+        "alt": "Sample image 42"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_42.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video42.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308055",
+    "updatedAt": "2024-11-15 07:09:41.308058"
+  },
+  {
+    "mediaId": "a747b493-bfb0-403d-b1ab-4b6643bae288",
+    "title": "A Guide to fitness",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Tutorial",
+    "duration": 106,
+    "publishDate": "2024-05-17 22:54:33",
+    "tags": "fitness",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image43.jpg",
+        "alt": "Sample image 43"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_43.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video43.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308104",
+    "updatedAt": "2024-11-15 07:09:41.308106"
+  },
+  {
+    "mediaId": "73f54116-6fe4-4937-bbfd-73854975b60a",
+    "title": "A Guide to relaxation",
+    "status": "Published",
+    "mediaType": "Video",
+    "contentType": "Documentary",
+    "duration": 50,
+    "publishDate": "2024-06-03 01:31:14",
+    "tags": "learning",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image44.jpg",
+        "alt": "Sample image 44"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video44.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308150",
+    "updatedAt": "2024-11-15 07:09:41.308152"
+  },
+  {
+    "mediaId": "16ced452-3a77-45e1-9f49-2bd0b8757d37",
+    "title": "Understanding photography",
+    "status": "Draft",
+    "mediaType": "Video",
+    "contentType": "Wellness",
+    "duration": 14,
+    "publishDate": "2024-07-01 18:00:05",
+    "tags": "fitness,health,adventure",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image45.jpg",
+        "alt": "Sample image 45"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_45.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video45.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308189",
+    "updatedAt": "2024-11-15 07:09:41.308191"
+  },
+  {
+    "mediaId": "2ec0196c-af87-4526-8bc2-652055fdbb1a",
+    "title": "Deep Dive into learning",
+    "status": "Published",
+    "mediaType": "Audio",
+    "contentType": "Documentary",
+    "duration": 91,
+    "publishDate": "2023-03-23 05:57:08",
+    "tags": "technology",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image46.jpg",
+        "alt": "Sample image 46"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video46.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308228",
+    "updatedAt": "2024-11-15 07:09:41.308230"
+  },
+  {
+    "mediaId": "318a2e3b-c73a-4a09-8b1a-c9b661c219d8",
+    "title": "Journey Through adventure",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Wellness",
+    "duration": 242,
+    "publishDate": "2024-06-09 04:36:45",
+    "tags": "relaxation,photography,fitness",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image47.jpg",
+        "alt": "Sample image 47"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_47.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video47.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308276",
+    "updatedAt": "2024-11-15 07:09:41.308278"
+  },
+  {
+    "mediaId": "a32cce2c-4ebb-45f8-bff7-26c64da2ff98",
+    "title": "Deep Dive into photography",
+    "status": "Draft",
+    "mediaType": "Audio",
+    "contentType": "Entertainment",
+    "duration": 225,
+    "publishDate": "2023-02-14 05:56:53",
+    "tags": "health,adventure,relaxation",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image48.jpg",
+        "alt": "Sample image 48"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video48.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308324",
+    "updatedAt": "2024-11-15 07:09:41.308327"
+  },
+  {
+    "mediaId": "09142f49-29ed-4e19-9c00-6ef4669618b7",
+    "title": "Deep Dive into health",
+    "status": "Published",
+    "mediaType": "Audio",
+    "contentType": "Photography",
+    "duration": 93,
+    "publishDate": "2023-04-01 17:47:48",
+    "tags": "adventure,learning",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image49.jpg",
+        "alt": "Sample image 49"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_49.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video49.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308382",
+    "updatedAt": "2024-11-15 07:09:41.308385"
+  },
+  {
+    "mediaId": "d751c99f-67db-4c2e-9093-da1d4c3847ab",
+    "title": "Understanding learning",
+    "status": "Published",
+    "mediaType": "Audio",
+    "contentType": "Photography",
+    "duration": 41,
+    "publishDate": "2024-09-06 10:16:40",
+    "tags": "fitness,health",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image50.jpg",
+        "alt": "Sample image 50"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_50.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video50.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308445",
+    "updatedAt": "2024-11-15 07:09:41.308448"
+  },
+  {
+    "mediaId": "95f40333-d7df-41d5-8e44-82b319be50c7",
+    "title": "Journey Through technology",
+    "status": "Published",
+    "mediaType": "Audio",
+    "contentType": "Documentary",
+    "duration": 259,
+    "publishDate": "2024-07-25 05:15:11",
+    "tags": "relaxation",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image51.jpg",
+        "alt": "Sample image 51"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video51.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308495",
+    "updatedAt": "2024-11-15 07:09:41.308498"
+  },
+  {
+    "mediaId": "6ae27a32-e740-4e65-860d-c6a874cc9dbe",
+    "title": "Deep Dive into technology",
+    "status": "Draft",
+    "mediaType": "Audio",
+    "contentType": "Photography",
+    "duration": 10,
+    "publishDate": "2023-01-30 07:44:18",
+    "tags": "fitness,relaxation,health",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image52.jpg",
+        "alt": "Sample image 52"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_52.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video52.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308536",
+    "updatedAt": "2024-11-15 07:09:41.308538"
+  },
+  {
+    "mediaId": "cd605077-4c89-44c1-8211-f968ed86accc",
+    "title": "A Guide to learning",
+    "status": "Published",
+    "mediaType": "Audio",
+    "contentType": "Documentary",
+    "duration": 198,
+    "publishDate": "2023-05-12 05:50:09",
+    "tags": "learning",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image53.jpg",
+        "alt": "Sample image 53"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video53.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308592",
+    "updatedAt": "2024-11-15 07:09:41.308594"
+  },
+  {
+    "mediaId": "969de3ec-60f4-475e-9c2c-004f35a5d42b",
+    "title": "Exploring fitness",
+    "status": "Draft",
+    "mediaType": "Video",
+    "contentType": "Photography",
+    "duration": 113,
+    "publishDate": "2023-02-14 00:22:48",
+    "tags": "photography,fitness",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image54.jpg",
+        "alt": "Sample image 54"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video54.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308649",
+    "updatedAt": "2024-11-15 07:09:41.308653"
+  },
+  {
+    "mediaId": "ff4c41be-cb9f-412f-a0d6-3fe1afaac222",
+    "title": "Understanding photography",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Wellness",
+    "duration": 63,
+    "publishDate": "2023-04-19 22:59:11",
+    "tags": "relaxation,adventure",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image55.jpg",
+        "alt": "Sample image 55"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_55.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video55.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308686",
+    "updatedAt": "2024-11-15 07:09:41.308688"
+  },
+  {
+    "mediaId": "92c91b74-8415-4fc4-a6f6-fb12a6def11e",
+    "title": "Journey Through photography",
+    "status": "Published",
+    "mediaType": "Image",
+    "contentType": "Entertainment",
+    "duration": 114,
+    "publishDate": "2024-04-08 07:40:18",
+    "tags": "technology,learning",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image56.jpg",
+        "alt": "Sample image 56"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_56.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video56.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308719",
+    "updatedAt": "2024-11-15 07:09:41.308721"
+  },
+  {
+    "mediaId": "80e9a403-9bb2-4e63-bdfe-8d1ffa02dc60",
+    "title": "Deep Dive into learning",
+    "status": "Published",
+    "mediaType": "Image",
+    "contentType": "Photography",
+    "duration": 11,
+    "publishDate": "2023-01-03 11:49:06",
+    "tags": "health",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image57.jpg",
+        "alt": "Sample image 57"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_57.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video57.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308760",
+    "updatedAt": "2024-11-15 07:09:41.308762"
+  },
+  {
+    "mediaId": "6fdc8e2b-abb8-45a3-856a-942929650a0e",
+    "title": "A Guide to technology",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Photography",
+    "duration": 111,
+    "publishDate": "2023-11-12 07:04:54",
+    "tags": "photography",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image58.jpg",
+        "alt": "Sample image 58"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video58.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308801",
+    "updatedAt": "2024-11-15 07:09:41.308802"
+  },
+  {
+    "mediaId": "c6628279-3de7-4ba0-93e5-6b9ecace6198",
+    "title": "Journey Through adventure",
+    "status": "Draft",
+    "mediaType": "Audio",
+    "contentType": "Documentary",
+    "duration": 189,
+    "publishDate": "2024-12-15 23:43:05",
+    "tags": "photography,adventure",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image59.jpg",
+        "alt": "Sample image 59"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_59.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video59.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308840",
+    "updatedAt": "2024-11-15 07:09:41.308841"
+  },
+  {
+    "mediaId": "5271bb65-341b-4cdc-99a7-a34f36c18990",
+    "title": "Deep Dive into photography",
+    "status": "Published",
+    "mediaType": "Audio",
+    "contentType": "Documentary",
+    "duration": 261,
+    "publishDate": "2023-07-12 15:13:38",
+    "tags": "relaxation,technology",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image60.jpg",
+        "alt": "Sample image 60"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_60.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video60.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308875",
+    "updatedAt": "2024-11-15 07:09:41.308877"
+  },
+  {
+    "mediaId": "b3b3592f-c30c-4575-a36e-b961f6b53522",
+    "title": "Journey Through adventure",
+    "status": "Draft",
+    "mediaType": "Audio",
+    "contentType": "Wellness",
+    "duration": 115,
+    "publishDate": "2023-04-19 15:34:26",
+    "tags": "photography,relaxation,health",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image61.jpg",
+        "alt": "Sample image 61"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video61.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308910",
+    "updatedAt": "2024-11-15 07:09:41.308911"
+  },
+  {
+    "mediaId": "be1379af-359a-43c7-a2ed-11b875f17b45",
+    "title": "A Guide to technology",
+    "status": "Draft",
+    "mediaType": "Audio",
+    "contentType": "Photography",
+    "duration": 238,
+    "publishDate": "2024-03-03 19:12:51",
+    "tags": "technology",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image62.jpg",
+        "alt": "Sample image 62"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video62.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.308964",
+    "updatedAt": "2024-11-15 07:09:41.308966"
+  },
+  {
+    "mediaId": "06d78374-df41-4e4e-bd86-740002c80b7c",
+    "title": "Deep Dive into technology",
+    "status": "Draft",
+    "mediaType": "Audio",
+    "contentType": "Wellness",
+    "duration": 257,
+    "publishDate": "2023-02-05 22:03:32",
+    "tags": "adventure,learning,relaxation",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image63.jpg",
+        "alt": "Sample image 63"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_63.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video63.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.309009",
+    "updatedAt": "2024-11-15 07:09:41.309011"
+  },
+  {
+    "mediaId": "641643dc-b16b-4070-ade1-c5978518229d",
+    "title": "A Guide to fitness",
+    "status": "Draft",
+    "mediaType": "Video",
+    "contentType": "Documentary",
+    "duration": 252,
+    "publishDate": "2024-06-18 10:58:54",
+    "tags": "fitness,learning",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image64.jpg",
+        "alt": "Sample image 64"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_64.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video64.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.309057",
+    "updatedAt": "2024-11-15 07:09:41.309060"
+  },
+  {
+    "mediaId": "edbfeef6-c284-4cd8-b64f-3e81c00c93f6",
+    "title": "Deep Dive into fitness",
+    "status": "Draft",
+    "mediaType": "Audio",
+    "contentType": "Documentary",
+    "duration": 211,
+    "publishDate": "2024-07-26 10:48:16",
+    "tags": "learning,fitness",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image65.jpg",
+        "alt": "Sample image 65"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video65.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.309121",
+    "updatedAt": "2024-11-15 07:09:41.309124"
+  },
+  {
+    "mediaId": "3df29c12-a4b8-4bc5-8f86-dff243636412",
+    "title": "Deep Dive into health",
+    "status": "Draft",
+    "mediaType": "Video",
+    "contentType": "Documentary",
+    "duration": 262,
+    "publishDate": "2024-04-30 22:41:07",
+    "tags": "relaxation,photography",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image66.jpg",
+        "alt": "Sample image 66"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_66.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video66.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.309169",
+    "updatedAt": "2024-11-15 07:09:41.309171"
+  },
+  {
+    "mediaId": "4d9f61d4-5244-4d8f-89e8-6a5501ae839e",
+    "title": "Understanding technology",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Entertainment",
+    "duration": 135,
+    "publishDate": "2023-08-12 02:58:28",
+    "tags": "health,photography,adventure",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image67.jpg",
+        "alt": "Sample image 67"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video67.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.309220",
+    "updatedAt": "2024-11-15 07:09:41.309222"
+  },
+  {
+    "mediaId": "7d9a3355-4d24-4224-a18d-bdc195b048ba",
+    "title": "Journey Through photography",
+    "status": "Draft",
+    "mediaType": "Audio",
+    "contentType": "Wellness",
+    "duration": 51,
+    "publishDate": "2023-07-08 23:55:36",
+    "tags": "technology,learning",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image68.jpg",
+        "alt": "Sample image 68"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_68.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video68.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.309257",
+    "updatedAt": "2024-11-15 07:09:41.309260"
+  },
+  {
+    "mediaId": "055b6123-934c-4172-b9d9-882d1e5a26aa",
+    "title": "Journey Through relaxation",
+    "status": "Draft",
+    "mediaType": "Video",
+    "contentType": "Tutorial",
+    "duration": 180,
+    "publishDate": "2024-04-16 18:55:41",
+    "tags": "photography",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image69.jpg",
+        "alt": "Sample image 69"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video69.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.309298",
+    "updatedAt": "2024-11-15 07:09:41.309299"
+  },
+  {
+    "mediaId": "336b1684-e5de-4b32-b020-fc5aee876b47",
+    "title": "Understanding relaxation",
+    "status": "Draft",
+    "mediaType": "Audio",
+    "contentType": "Tutorial",
+    "duration": 216,
+    "publishDate": "2023-09-18 06:34:37",
+    "tags": "technology,relaxation,health",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image70.jpg",
+        "alt": "Sample image 70"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_70.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video70.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.309332",
+    "updatedAt": "2024-11-15 07:09:41.309333"
+  },
+  {
+    "mediaId": "e63bcb6d-e8ee-481b-95bf-b481ce0a9258",
+    "title": "Exploring health",
+    "status": "Published",
+    "mediaType": "Image",
+    "contentType": "Entertainment",
+    "duration": 200,
+    "publishDate": "2024-02-16 06:41:06",
+    "tags": "adventure,technology",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image71.jpg",
+        "alt": "Sample image 71"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video71.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.309387",
+    "updatedAt": "2024-11-15 07:09:41.309390"
+  },
+  {
+    "mediaId": "76e787ab-a83f-4970-989a-377fcb83a6ee",
+    "title": "Journey Through photography",
+    "status": "Published",
+    "mediaType": "Audio",
+    "contentType": "Wellness",
+    "duration": 17,
+    "publishDate": "2024-10-24 07:41:57",
+    "tags": "learning,relaxation",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image72.jpg",
+        "alt": "Sample image 72"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_72.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video72.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.309437",
+    "updatedAt": "2024-11-15 07:09:41.309439"
+  },
+  {
+    "mediaId": "444ba6b6-fd12-455e-af0d-7e9bcbcb674a",
+    "title": "Deep Dive into adventure",
+    "status": "Published",
+    "mediaType": "Video",
+    "contentType": "Entertainment",
+    "duration": 265,
+    "publishDate": "2024-04-30 01:18:10",
+    "tags": "adventure,learning,photography",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image73.jpg",
+        "alt": "Sample image 73"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video73.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.309482",
+    "updatedAt": "2024-11-15 07:09:41.309484"
+  },
+  {
+    "mediaId": "d1b9424b-48ee-4ce3-b511-c6958c8e2fc7",
+    "title": "Understanding technology",
+    "status": "Published",
+    "mediaType": "Image",
+    "contentType": "Tutorial",
+    "duration": 5,
+    "publishDate": "2024-10-28 21:10:21",
+    "tags": "adventure,learning,health",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image74.jpg",
+        "alt": "Sample image 74"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_74.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video74.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.309528",
+    "updatedAt": "2024-11-15 07:09:41.309531"
+  },
+  {
+    "mediaId": "48935011-f1cf-492d-84be-110158894116",
+    "title": "Deep Dive into technology",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Photography",
+    "duration": 13,
+    "publishDate": "2023-01-28 08:05:41",
+    "tags": "technology",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image75.jpg",
+        "alt": "Sample image 75"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video75.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.309573",
+    "updatedAt": "2024-11-15 07:09:41.309575"
+  },
+  {
+    "mediaId": "31a47a20-74ba-4fcf-9b89-5fda6d16948b",
+    "title": "Exploring fitness",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Wellness",
+    "duration": 19,
+    "publishDate": "2024-08-26 16:49:45",
+    "tags": "photography,health,relaxation",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image76.jpg",
+        "alt": "Sample image 76"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video76.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.309615",
+    "updatedAt": "2024-11-15 07:09:41.309617"
+  },
+  {
+    "mediaId": "0968160e-bd18-45a6-840f-54578f92adb5",
+    "title": "Understanding fitness",
+    "status": "Published",
+    "mediaType": "Audio",
+    "contentType": "Photography",
+    "duration": 188,
+    "publishDate": "2023-09-22 09:24:42",
+    "tags": "photography,technology",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image77.jpg",
+        "alt": "Sample image 77"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video77.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.309820",
+    "updatedAt": "2024-11-15 07:09:41.309824"
+  },
+  {
+    "mediaId": "f9bbde01-214e-414a-ac59-c545aefd9dfb",
+    "title": "Journey Through fitness",
+    "status": "Draft",
+    "mediaType": "Video",
+    "contentType": "Tutorial",
+    "duration": 159,
+    "publishDate": "2024-09-08 20:16:34",
+    "tags": "photography",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image78.jpg",
+        "alt": "Sample image 78"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_78.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video78.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.309889",
+    "updatedAt": "2024-11-15 07:09:41.309891"
+  },
+  {
+    "mediaId": "8139186b-5301-46c4-bdd0-976643b184b6",
+    "title": "Journey Through fitness",
+    "status": "Published",
+    "mediaType": "Video",
+    "contentType": "Entertainment",
+    "duration": 120,
+    "publishDate": "2023-01-05 14:01:11",
+    "tags": "relaxation",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image79.jpg",
+        "alt": "Sample image 79"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video79.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.309944",
+    "updatedAt": "2024-11-15 07:09:41.309947"
+  },
+  {
+    "mediaId": "e6503051-4e45-46b6-a296-c603f8f9d2b6",
+    "title": "Understanding fitness",
+    "status": "Draft",
+    "mediaType": "Audio",
+    "contentType": "Tutorial",
+    "duration": 24,
+    "publishDate": "2023-09-19 22:26:57",
+    "tags": "technology",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image80.jpg",
+        "alt": "Sample image 80"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_80.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video80.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.310000",
+    "updatedAt": "2024-11-15 07:09:41.310002"
+  },
+  {
+    "mediaId": "567694d8-04e8-473f-8f1f-a0d2c9db9ed4",
+    "title": "Exploring relaxation",
+    "status": "Published",
+    "mediaType": "Audio",
+    "contentType": "Wellness",
+    "duration": 260,
+    "publishDate": "2023-06-12 05:37:24",
+    "tags": "fitness,learning,relaxation",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image81.jpg",
+        "alt": "Sample image 81"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video81.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.310044",
+    "updatedAt": "2024-11-15 07:09:41.310045"
+  },
+  {
+    "mediaId": "d21723f8-f0a5-4604-9e0b-04bb7da8f6e3",
+    "title": "Exploring relaxation",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Documentary",
+    "duration": 23,
+    "publishDate": "2024-04-17 03:14:31",
+    "tags": "photography,technology",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image82.jpg",
+        "alt": "Sample image 82"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video82.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.310079",
+    "updatedAt": "2024-11-15 07:09:41.310081"
+  },
+  {
+    "mediaId": "780d796a-9a21-4e28-bd73-2cdb2109ff39",
+    "title": "A Guide to learning",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Wellness",
+    "duration": 36,
+    "publishDate": "2023-01-23 23:43:01",
+    "tags": "photography,relaxation",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image83.jpg",
+        "alt": "Sample image 83"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_83.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video83.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.310138",
+    "updatedAt": "2024-11-15 07:09:41.310141"
+  },
+  {
+    "mediaId": "155db0cd-6ff6-403a-a7a8-a61a4fe89827",
+    "title": "Understanding health",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Tutorial",
+    "duration": 296,
+    "publishDate": "2023-12-22 01:20:24",
+    "tags": "fitness,relaxation",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image84.jpg",
+        "alt": "Sample image 84"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_84.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video84.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.310190",
+    "updatedAt": "2024-11-15 07:09:41.310193"
+  },
+  {
+    "mediaId": "02b80490-f54c-4ad5-abea-9c6c4dd4af87",
+    "title": "A Guide to photography",
+    "status": "Published",
+    "mediaType": "Image",
+    "contentType": "Documentary",
+    "duration": 34,
+    "publishDate": "2024-09-07 02:35:47",
+    "tags": "photography,fitness,technology",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image85.jpg",
+        "alt": "Sample image 85"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_85.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video85.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.310238",
+    "updatedAt": "2024-11-15 07:09:41.310240"
+  },
+  {
+    "mediaId": "c80547f0-29a0-4fa5-b6c5-4657d14f21e1",
+    "title": "Exploring technology",
+    "status": "Draft",
+    "mediaType": "Audio",
+    "contentType": "Documentary",
+    "duration": 292,
+    "publishDate": "2024-12-25 18:29:34",
+    "tags": "technology,adventure,learning",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image86.jpg",
+        "alt": "Sample image 86"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_86.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video86.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.310274",
+    "updatedAt": "2024-11-15 07:09:41.310275"
+  },
+  {
+    "mediaId": "1e30d364-924d-407b-81a6-193cbb3d30c6",
+    "title": "A Guide to health",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Entertainment",
+    "duration": 38,
+    "publishDate": "2023-10-26 06:04:11",
+    "tags": "relaxation,adventure,fitness",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image87.jpg",
+        "alt": "Sample image 87"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_87.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video87.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.310322",
+    "updatedAt": "2024-11-15 07:09:41.310324"
+  },
+  {
+    "mediaId": "a821394d-4cc8-4915-80dd-c235c6669f85",
+    "title": "Understanding photography",
+    "status": "Draft",
+    "mediaType": "Audio",
+    "contentType": "Entertainment",
+    "duration": 231,
+    "publishDate": "2023-01-14 08:48:45",
+    "tags": "relaxation,health",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image88.jpg",
+        "alt": "Sample image 88"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video88.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.310367",
+    "updatedAt": "2024-11-15 07:09:41.310370"
+  },
+  {
+    "mediaId": "d9be5334-069d-4b1b-b208-9aa4118d03d3",
+    "title": "Journey Through photography",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Documentary",
+    "duration": 294,
+    "publishDate": "2023-10-23 10:38:26",
+    "tags": "relaxation,technology",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image89.jpg",
+        "alt": "Sample image 89"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video89.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.310413",
+    "updatedAt": "2024-11-15 07:09:41.310415"
+  },
+  {
+    "mediaId": "35547dbe-0a4f-4a6a-86cc-ecea24847beb",
+    "title": "A Guide to learning",
+    "status": "Published",
+    "mediaType": "Image",
+    "contentType": "Documentary",
+    "duration": 65,
+    "publishDate": "2024-11-22 19:24:49",
+    "tags": "learning,technology,photography",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image90.jpg",
+        "alt": "Sample image 90"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_90.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video90.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.310447",
+    "updatedAt": "2024-11-15 07:09:41.310449"
+  },
+  {
+    "mediaId": "f3a9d13e-699f-4b65-9d5a-6516e27fcb1c",
+    "title": "Deep Dive into photography",
+    "status": "Published",
+    "mediaType": "Audio",
+    "contentType": "Photography",
+    "duration": 150,
+    "publishDate": "2023-10-17 06:21:47",
+    "tags": "fitness,health",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image91.jpg",
+        "alt": "Sample image 91"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_91.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video91.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.310481",
+    "updatedAt": "2024-11-15 07:09:41.310482"
+  },
+  {
+    "mediaId": "7238e3a1-4dde-4699-b07d-695fe10793e3",
+    "title": "A Guide to relaxation",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Documentary",
+    "duration": 210,
+    "publishDate": "2024-04-05 11:17:08",
+    "tags": "health",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image92.jpg",
+        "alt": "Sample image 92"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video92.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.310514",
+    "updatedAt": "2024-11-15 07:09:41.310516"
+  },
+  {
+    "mediaId": "c8baa574-7874-45c0-8a4c-0d54537bb736",
+    "title": "Understanding relaxation",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Documentary",
+    "duration": 165,
+    "publishDate": "2024-10-30 01:51:04",
+    "tags": "relaxation,technology,learning",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "Spanish"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image93.jpg",
+        "alt": "Sample image 93"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video93.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.310561",
+    "updatedAt": "2024-11-15 07:09:41.310563"
+  },
+  {
+    "mediaId": "67d3557f-6e46-4255-95a3-5b1cde4635c7",
+    "title": "Deep Dive into learning",
+    "status": "Draft",
+    "mediaType": "Video",
+    "contentType": "Photography",
+    "duration": 133,
+    "publishDate": "2024-07-10 11:41:36",
+    "tags": "health",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image94.jpg",
+        "alt": "Sample image 94"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_94.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video94.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.310604",
+    "updatedAt": "2024-11-15 07:09:41.310606"
+  },
+  {
+    "mediaId": "93b2ce84-f2d3-490d-87aa-c1396b791048",
+    "title": "Understanding fitness",
+    "status": "Draft",
+    "mediaType": "Image",
+    "contentType": "Wellness",
+    "duration": 228,
+    "publishDate": "2023-03-21 02:08:25",
+    "tags": "health,adventure,photography",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image95.jpg",
+        "alt": "Sample image 95"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_95.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video95.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.310670",
+    "updatedAt": "2024-11-15 07:09:41.310672"
+  },
+  {
+    "mediaId": "6157f7be-f384-43c4-8247-ffa6f3a96239",
+    "title": "A Guide to adventure",
+    "status": "Draft",
+    "mediaType": "Audio",
+    "contentType": "Documentary",
+    "duration": 121,
+    "publishDate": "2023-11-25 16:19:42",
+    "tags": "adventure,fitness,learning",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "HD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image96.jpg",
+        "alt": "Sample image 96"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video96.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.310718",
+    "updatedAt": "2024-11-15 07:09:41.310721"
+  },
+  {
+    "mediaId": "9ad438f5-801b-4f1f-90bf-c3020c608e6d",
+    "title": "Journey Through learning",
+    "status": "Published",
+    "mediaType": "Video",
+    "contentType": "Tutorial",
+    "duration": 257,
+    "publishDate": "2023-03-03 12:44:06",
+    "tags": "health",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image97.jpg",
+        "alt": "Sample image 97"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_97.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video97.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.310748",
+    "updatedAt": "2024-11-15 07:09:41.310750"
+  },
+  {
+    "mediaId": "8466021b-2494-4b88-837d-b4aff37a5a4c",
+    "title": "Exploring photography",
+    "status": "Published",
+    "mediaType": "Audio",
+    "contentType": "Wellness",
+    "duration": 97,
+    "publishDate": "2024-05-19 19:51:13",
+    "tags": "fitness,health",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "SD"
+      },
+      {
+        "key": "language",
+        "value": "French"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image98.jpg",
+        "alt": "Sample image 98"
+      }
+    ],
+    "tracks": [],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video98.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.310771",
+    "updatedAt": "2024-11-15 07:09:41.310773"
+  },
+  {
+    "mediaId": "603e64ef-e13c-4a7c-af5e-af4c7dfc8a9b",
+    "title": "A Guide to relaxation",
+    "status": "Draft",
+    "mediaType": "Video",
+    "contentType": "Entertainment",
+    "duration": 219,
+    "publishDate": "2024-01-05 21:28:53",
+    "tags": "health,learning,fitness",
+    "customParameters": [
+      {
+        "key": "quality",
+        "value": "4K"
+      },
+      {
+        "key": "language",
+        "value": "English"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://example.com/image99.jpg",
+        "alt": "Sample image 99"
+      }
+    ],
+    "tracks": [
+      {
+        "language": "en",
+        "type": "subtitle",
+        "url": "https://example.com/subtitle_en_99.vtt"
+      }
+    ],
+    "assets": [
+      {
+        "type": "video",
+        "url": "https://example.com/video99.mp4"
+      }
+    ],
+    "createdAt": "2024-11-15 07:09:41.310811",
+    "updatedAt": "2024-11-15 07:09:41.310814"
+  }
+]
