@@ -1,0 +1,43 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Media {
+  mediaId String @id @default(cuid())
+  title String
+  status String
+  mediaType String
+  contentType String
+  duration Int
+  publishDate DateTime
+  tags String
+  customParameters Json
+  images Json[] // Array of JSON objects for images
+  tracks Json[] // JSON for tracks
+  assets Json[] // JSON for assets
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Playlist {
+  playlistId       String   @id @default(uuid()) @unique
+  title            String
+  type             String
+  playlist         Json[]     // JSON array for the playlist
+  description      String?
+  customParameters Json       // JSON array for custom parameters
+  kind             String
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}

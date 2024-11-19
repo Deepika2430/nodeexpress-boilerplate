@@ -10,7 +10,8 @@ export default [
       ".trunk/",
       "node_modules/",
       "jest.config.js",
-      "queue-admin/"
+      "queue-admin/",
+      "src/graphql/nexus-typegen.ts",
     ]
   },
   {files: ["**/*.{js,mjs,cjs,ts}"]},
