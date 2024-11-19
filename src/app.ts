@@ -31,8 +31,6 @@ app.use(session({
 
 app.use(cors());
 app.use(express.static(path.join(__dirname, './public')));
-console.log(path.join(__dirname, './public'));
-console.log(express.static(path.join(__dirname, './public')));
 
 bodyParserXml(bodyParser);
 app.use(bodyParser.xml({
