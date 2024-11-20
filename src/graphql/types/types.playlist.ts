@@ -18,7 +18,7 @@ export type PlaylistMetadata = {
     title: string;
     description: string;
     type: string,
-    customParameters?: string,
+    customParameters?: JsonValue,
 }
 
 export type DynamicPlaylistConfig = {
