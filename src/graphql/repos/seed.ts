@@ -1,8 +1,18 @@
+import { PrismaClient } from '@prisma/client';
+
 import { logger } from '../../logger/log';
-import { prismaConnection as prisma } from "../../connections";
+import { config } from '../../connections';
 
 import mediaRecords from "./media-records.json"
 
+const prisma = new PrismaClient({
+    datasources: {
+        db: {
+            url: `postgresql://${config.db.user}:${config.db.pass}@${config.db.host}/${config.db.name}?connection_limit=${config.db.connectionLimit}`,
+        },
+    },
+    log: ['info'],
+})
 
 async function insertRecords(dataArray: any) {
     try {
@@ -10,7 +20,7 @@ async function insertRecords(dataArray: any) {
             throw new Error('Data array is empty or not an array.');
         }
 
-        const result= await prisma.media.createMany({
+        const result = await prisma.media.createMany({
             data: dataArray.map((item: any) => ({
                 ...item,
                 publishDate: new Date(item.publishDate).toISOString(),
@@ -30,11 +40,12 @@ async function insertRecords(dataArray: any) {
     }
 }
 
-insertRecords(mediaRecords)
-    .then(result => {
-        logger.info(result);
-        logger.info("Data insertion completed successfully.");
-    })
-    .catch(error => {
-        logger.error("Data insertion failed:", error);
-    });
+const insertData = async (mediaRecords: any) => {
+    try {
+        await insertRecords(mediaRecords);
+    } finally {
+        process.exit(0);
+    }
+};
+
+insertData(mediaRecords);
