@@ -1,26 +1,31 @@
-import { fetchPlaylistPreview } from '../repos/repos.media';
-import { PlaylistMetadata, DynamicPlaylistConfig } from '../types/types.playlist';
-import { convertMediaFormat } from '../utils/utils.media';
-import * as repos from '../repos/repos.playlist'
-import { logger } from '../../logger/log';
-export async function createPlaylist(playlistMetadata: PlaylistMetadata, dynamicPlaylistConfig: DynamicPlaylistConfig) {
+import { v4 as uuidv4 } from "uuid";
+
+import { fetchPlaylistPreview } from "../repos/repos.media";
+import { PlaylistMetadata, DynamicPlaylistConfig } from "../types/types.playlist";
+import { formatMedia } from "../utils/utils.media";
+import * as repos from "../repos/repos.playlist";
+import { logger } from "../../logger/log";
+import { formatPlaylist } from "../utils/utils.playlist";
+
+export async function createPlaylist(
+    playlistMetadata: PlaylistMetadata,
+    dynamicPlaylistConfig: DynamicPlaylistConfig
+) {
     const mediaItems = await fetchPlaylistPreview(dynamicPlaylistConfig);
-    const convertedMediaItems = (await mediaItems).map((mediaItem) =>
-        convertMediaFormat(mediaItem)
+    const convertedMediaItems = await Promise.all(
+        mediaItems.map((mediaItem) => formatMedia(mediaItem))
     );
-    const createdPlaylist = await repos.createPlaylist(playlistMetadata, convertedMediaItems);
-    const playlist: { [key: string]: any } = {
-        title: createdPlaylist?.title,
-        feedid: createdPlaylist?.playlistId,
-        playlist: createdPlaylist?.playlist,
-        description: createdPlaylist?.description,
-        kind: createdPlaylist?.kind
-    }
-    if (createdPlaylist?.customParameters) {
-        Object.entries(createdPlaylist.customParameters).forEach(([key, value]) => {
-            playlist[key] = value;
-        });
-    }
-    logger.info(playlist);
-    return playlist;
+
+    const playlistId = uuidv4().substr(0, 6);
+    const playlist = formatPlaylist({
+        playlistId,
+        playlist: convertedMediaItems,
+        ...playlistMetadata,
+    });
+
+    return formatPlaylist(await repos.createPlaylist(playlist));
+}
+
+export async function getPlaylistById(playlistId: string) {
+    return formatPlaylist(await repos.getPlaylistById(playlistId));
 }

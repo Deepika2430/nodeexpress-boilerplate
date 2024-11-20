@@ -133,7 +133,7 @@ export interface NexusGenFieldTypes {
     tracks: Array<NexusGenScalars['JSON'] | null> | null; // [JSON]
   }
   Mutation: { // field return type
-    createPlaylist: NexusGenRootTypes['Playlist'] | null; // Playlist
+    createPlaylist: NexusGenScalars['JSON'] | null; // JSON
   }
   Playlist: { // field return type
     customParameters: NexusGenScalars['JSON'] | null; // JSON
@@ -143,7 +143,8 @@ export interface NexusGenFieldTypes {
     title: string; // String!
   }
   Query: { // field return type
-    media: NexusGenRootTypes['Media'] | null; // Media
+    getPlaylistById: NexusGenScalars['JSON'] | null; // JSON
+    media: NexusGenScalars['JSON'] | null; // JSON
   }
 }
 
@@ -166,7 +167,7 @@ export interface NexusGenFieldTypeNames {
     tracks: 'JSON'
   }
   Mutation: { // field return type name
-    createPlaylist: 'Playlist'
+    createPlaylist: 'JSON'
   }
   Playlist: { // field return type name
     customParameters: 'JSON'
@@ -176,7 +177,8 @@ export interface NexusGenFieldTypeNames {
     title: 'String'
   }
   Query: { // field return type name
-    media: 'Media'
+    getPlaylistById: 'JSON'
+    media: 'JSON'
   }
 }
 
@@ -188,6 +190,9 @@ export interface NexusGenArgTypes {
     }
   }
   Query: {
+    getPlaylistById: { // args
+      playlistId: string; // ID!
+    }
     media: { // args
       id: string; // ID!
     }

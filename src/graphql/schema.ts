@@ -11,8 +11,6 @@ import {
 import { GraphQLDateTime, GraphQLJSON } from 'graphql-scalars'; // Import scalars
 
 import { Context } from './context';
-import { fetchPlaylistPreview } from './repos/repos.media';
-import { convertMediaFormat } from './utils/utils.media';
 
 // Add custom scalars
 export const DateTime = asNexusMethod(GraphQLDateTime, 'date');
@@ -116,10 +114,21 @@ const Query = objectType({
   name: 'Query',
   definition(t) {
     t.field('media', {
-      type: 'Media',
+      type: 'JSON',
       args: { id: nonNull(idArg()) },
       resolve: async (_parent, { id }, ctx: Context) => {
         return ctx.getMedia(id);
+      },
+    });
+    t.field('getPlaylistById', {
+      type: 'JSON', // Define the type as Playlist
+      args: { playlistId: nonNull(idArg()) }, // Accept a non-null ID argument
+      resolve: async (_parent, { playlistId }, ctx: Context) => {
+        const playlist = await ctx.getPlaylistById(playlistId); // Fetch the playlist by ID
+        if (!playlist) {
+          throw new Error(`Playlist with ID ${playlistId} not found.`);
+        }
+        return playlist;
       },
     });
   },
@@ -130,7 +139,7 @@ const Mutation = objectType({
   name: 'Mutation',
   definition(t) {
     t.field('createPlaylist', {
-      type: 'Playlist',
+      type: 'JSON',
       args: {
         playlistMetadata: nonNull(PlaylistMetadata),
         dynamicPlaylistConfig: nonNull(DynamicPlaylistConfig),

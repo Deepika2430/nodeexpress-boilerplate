@@ -1,23 +1,35 @@
-import { InputJsonValue } from "@prisma/client/runtime/library";
-import { Playlist } from "@prisma/client";
-
-import { PlaylistMetadata } from "../types/types.playlist";
 import { logger } from "../../logger/log";
 import { prismaConnection as prisma } from "../../connections";
 
-export async function createPlaylist(playlistMetadata: PlaylistMetadata, playlist: any): Promise<Playlist | null> {
+export async function createPlaylist(inputPlaylist: any): Promise<any> {
     try {
+        const { title, feedid, kind, description, playlist, ...customParameters } = inputPlaylist;
+
         const playlistData = await prisma.playlist.create({
             data: {
-                title: playlistMetadata.title,
-                type: playlistMetadata.type,
-                description: playlistMetadata.description,
-                customParameters: (playlistMetadata.customParameters) as InputJsonValue,
-                kind: playlistMetadata.type,
-                playlist
+                playlistId: feedid,
+                title,
+                type: kind,
+                description,
+                playlist,
+                customParameters,
             },
         });
+
         return playlistData;
+    } catch (error: any) {
+        logger.error(`Error creating playlist: ${error.message}`);
+        throw new Error('Failed to create playlist. Please try again later.');
+    }
+}
+export async function getPlaylistById(playlistId: string) {
+    try {
+        const playlist = await prisma.playlist.findUnique({
+            where: {
+                playlistId
+            }
+        });
+        return playlist;
     } catch (error) {
         logger.error(error);
         return null;

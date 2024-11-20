@@ -40,7 +40,7 @@ type MediaPlaylistItem {
 }
 
 type Mutation {
-  createPlaylist(dynamicPlaylistConfig: DynamicPlaylistConfig!, playlistMetadata: PlaylistMetadata!): Playlist
+  createPlaylist(dynamicPlaylistConfig: DynamicPlaylistConfig!, playlistMetadata: PlaylistMetadata!): JSON
 }
 
 type Playlist {
@@ -59,7 +59,8 @@ input PlaylistMetadata {
 }
 
 type Query {
-  media(id: ID!): Media
+  getPlaylistById(playlistId: ID!): JSON
+  media(id: ID!): JSON
 }
 
 input Sort {
