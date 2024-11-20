@@ -1,6 +1,6 @@
 import { Media } from "./../types/types.media";
 
-export function convertMediaFormat(mediaItem: Media | null) {
+export function formatMedia(mediaItem: Media | null) {
     if (!mediaItem)
         return null;
 
