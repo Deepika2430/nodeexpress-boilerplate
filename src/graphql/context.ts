@@ -1,19 +1,15 @@
-// context.ts
-import { Media } from "@prisma/client";
-
-import { fetchMediaItemById } from "./repos/repos.media";
-import { createPlaylist } from "./repos/repos.playlist";
-import { PlaylistMetadata } from "./types/types.media";
+import { getMedia } from "./resolvers/resolvers.media";
+import { createPlaylist } from "./resolvers/resolvers.playlist";
+import { PlaylistMetadata } from "./types/types.playlist";
 
 export type Context = {
-    fetchMediaItemById: (mediaId: string) => Promise<Media| null>;
+    getMedia: (mediaId: string) => Promise<any>;
     createPlaylist: (playlistMetadata: PlaylistMetadata, playlist: any) => Promise<any>;
 };
 
 export const createContext = (): Context => {
     return {
-        fetchMediaItemById,
+        getMedia,
         createPlaylist,
-        // Initialize your context here
     };
 };

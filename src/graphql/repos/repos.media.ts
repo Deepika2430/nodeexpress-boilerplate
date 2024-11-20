@@ -1,10 +1,7 @@
 import { Media } from "@prisma/client";
-import { PrismaClient } from "@prisma/client";
 
-import { DynamicPlaylistConfig } from "../types/types.media";
-
-const prisma = new PrismaClient();
-
+import { DynamicPlaylistConfig } from "../types/types.playlist";
+import { prismaConnection as prisma } from "../../connections";
 export async function fetchMediaItems(): Promise<Media[]> {
     try {
         return await prisma.media.findMany();

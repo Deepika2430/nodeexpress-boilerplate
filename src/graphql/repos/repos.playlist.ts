@@ -1,12 +1,10 @@
 import { InputJsonValue } from "@prisma/client/runtime/library";
 import { Playlist } from "@prisma/client";
-import { PrismaClient } from "@prisma/client";
 
-// import { prismaConnection as prisma } from "../../connections";
-import { PlaylistMetadata } from "../types/types.media";
+import { PlaylistMetadata } from "../types/types.playlist";
 import { logger } from "../../logger/log";
+import { prismaConnection as prisma } from "../../connections";
 
-const prisma = new PrismaClient();
 export async function createPlaylist(playlistMetadata: PlaylistMetadata, playlist: any): Promise<Playlist | null> {
     try {
         const playlistData = await prisma.playlist.create({

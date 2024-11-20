@@ -37,17 +37,29 @@ declare global {
 
 export interface NexusGenInputs {
   DynamicPlaylistConfig: { // input type
-    customParameters?: NexusGenScalars['JSON'] | null; // JSON
+    customParameters?: NexusGenInputs['customParameters'] | null; // customParameters
     itemsPerPage?: number | null; // Int
     pageNumber?: number | null; // Int
-    sort?: NexusGenScalars['JSON'] | null; // JSON
-    tags?: NexusGenScalars['JSON'] | null; // JSON
+    sort?: NexusGenInputs['Sort'] | null; // Sort
+    tags?: NexusGenInputs['Tags'] | null; // Tags
   }
   PlaylistMetadata: { // input type
     customParameters?: NexusGenScalars['JSON'] | null; // JSON
     description?: string | null; // String
     title?: string | null; // String
     type?: string | null; // String
+  }
+  Sort: { // input type
+    field?: string | null; // String
+    order?: string | null; // String
+  }
+  Tags: { // input type
+    exclude?: string | null; // String
+    include?: string | null; // String
+  }
+  customParameters: { // input type
+    exclude?: NexusGenScalars['JSON'] | null; // JSON
+    include?: NexusGenScalars['JSON'] | null; // JSON
   }
 }
 
@@ -124,6 +136,7 @@ export interface NexusGenFieldTypes {
     createPlaylist: NexusGenRootTypes['Playlist'] | null; // Playlist
   }
   Playlist: { // field return type
+    customParameters: NexusGenScalars['JSON'] | null; // JSON
     description: string | null; // String
     feedid: string; // String!
     playlist: Array<NexusGenRootTypes['Media'] | null> | null; // [Media]
@@ -156,6 +169,7 @@ export interface NexusGenFieldTypeNames {
     createPlaylist: 'Playlist'
   }
   Playlist: { // field return type name
+    customParameters: 'JSON'
     description: 'String'
     feedid: 'String'
     playlist: 'Media'

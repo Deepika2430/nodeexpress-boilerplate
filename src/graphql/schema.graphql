@@ -8,11 +8,11 @@ A date-time string at UTC, such as 2007-12-03T10:15:30Z, compliant with the `dat
 scalar DateTime
 
 input DynamicPlaylistConfig {
-  customParameters: JSON
+  customParameters: customParameters
   itemsPerPage: Int
   pageNumber: Int
-  sort: JSON
-  tags: JSON
+  sort: Sort
+  tags: Tags
 }
 
 """
@@ -44,6 +44,7 @@ type Mutation {
 }
 
 type Playlist {
+  customParameters: JSON
   description: String
   feedid: String!
   playlist: [Media]
@@ -59,4 +60,19 @@ input PlaylistMetadata {
 
 type Query {
   media(id: ID!): Media
+}
+
+input Sort {
+  field: String
+  order: String
+}
+
+input Tags {
+  exclude: String
+  include: String
+}
+
+input customParameters {
+  exclude: JSON
+  include: JSON
 }

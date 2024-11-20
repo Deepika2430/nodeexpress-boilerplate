@@ -1,5 +1,4 @@
 import { JsonValue } from "@prisma/client/runtime/library"
-import { DateDimensionField } from "aws-sdk/clients/quicksight";
 
 export type Media = {
     mediaId: string,
@@ -18,39 +17,3 @@ export type Media = {
     createdAt: Date,
     updatedAt: Date
 }
-
-export type PlaylistMetadata = {
-    title: string;
-    description: string;
-    type: string,
-    customParameters?: string,
-}
-
-export type DynamicPlaylistConfig = {
-    tags?: {
-        include?: string;
-        exclude?: string;
-    };
-    customParameters?: {
-        include?: { [key: string]: any };
-        exclude?: { [key: string]: any };
-    };
-    pageNumber?: number;
-    itemsPerPage?: number;
-    sort?: {
-        field?: string;
-        order: "asc" | "desc";
-    };
-};
-
-export type Playlist = {
-    playlistId: string;
-    title: string;
-    type: string;
-    playlist: Media[];
-    description?: string;
-    customParameters: JsonValue[];
-    kind: string;
-    createdAt: Date;
-    updatedAt: DateDimensionField;
-};

@@ -1,21 +1,17 @@
-import { PrismaClient } from '@prisma/client';
-
 import { logger } from '../../logger/log';
-import { Media } from '../types/types.media';
+import { prismaConnection as prisma } from "../../connections";
 
-import mediaRecords from "./media_record.json"
+import mediaRecords from "./media-records.json"
 
 
-const prisma = new PrismaClient();
-
-async function insertRecords(dataArray: Media[]) {
+async function insertRecords(dataArray: any) {
     try {
         if (!Array.isArray(dataArray) || dataArray.length === 0) {
             throw new Error('Data array is empty or not an array.');
         }
 
         const result= await prisma.media.createMany({
-            data: dataArray.map((item: Media) => ({
+            data: dataArray.map((item: any) => ({
                 ...item,
                 publishDate: new Date(item.publishDate).toISOString(),
                 createdAt: new Date(item.createdAt).toISOString(),

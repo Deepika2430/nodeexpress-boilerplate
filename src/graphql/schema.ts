@@ -60,9 +60,33 @@ const PlaylistMetadata = inputObjectType({
 const DynamicPlaylistConfig = inputObjectType({
   name: 'DynamicPlaylistConfig',
   definition(t) {
-    t.field('tags', { type: 'JSON' });
-    t.field('customParameters', { type: 'JSON' });
-    t.field('sort', { type: 'JSON' });
+    t.field('tags', {
+      type: inputObjectType({
+        name: 'Tags',
+        definition(t) {
+          t.string('include');
+          t.string('exclude');
+        }
+      })
+    });
+    t.field('customParameters',{
+      type: inputObjectType({
+        name: 'customParameters',
+        definition(t) {
+          t.field('include', { type: 'JSON' });
+          t.field('exclude', { type: 'JSON' });
+        }
+      })
+    });
+    t.field('sort', {
+      type: inputObjectType({
+        name: 'Sort',
+        definition(t) {
+          t.string('field');
+          t.string('order');
+        }
+      })
+    });
     t.int('itemsPerPage');
     t.int('pageNumber');
   },
@@ -76,8 +100,16 @@ const Playlist = objectType({
     t.nonNull.string('title');
     t.string('description');
     t.list.field('playlist', { type: Media });
+    t.field('customParameters', {
+      type: 'JSON', // Returning a JSON object containing all dynamic fields
+      resolve(parent) {
+        const { feedid, title, description, playlist, ...customParameters } = parent;
+        return customParameters;
+      },
+    });
   },
 });
+
 
 // Query Type
 const Query = objectType({
@@ -87,8 +119,7 @@ const Query = objectType({
       type: 'Media',
       args: { id: nonNull(idArg()) },
       resolve: async (_parent, { id }, ctx: Context) => {
-        const media = convertMediaFormat(await ctx.fetchMediaItemById(id));
-        return media;
+        return ctx.getMedia(id);
       },
     });
   },
@@ -105,24 +136,7 @@ const Mutation = objectType({
         dynamicPlaylistConfig: nonNull(DynamicPlaylistConfig),
       },
       resolve: async (_parent, { playlistMetadata, dynamicPlaylistConfig }, ctx) => {
-        const mediaItems = await fetchPlaylistPreview(dynamicPlaylistConfig);
-        const convertedMediaItems = (await mediaItems).map((mediaItem) =>
-          convertMediaFormat(mediaItem)
-        );
-        const createdPlaylist = await ctx.createPlaylist(playlistMetadata, convertedMediaItems);
-        const playlist: { [key: string]: any } = {
-          title: createdPlaylist.title,
-          feedid: createdPlaylist.playlistId,
-          playlist: createdPlaylist.playlist,
-          description: createdPlaylist.description,
-          kind: createdPlaylist.kind
-        }
-        if (createdPlaylist.customParameters) {
-          Object.entries(createdPlaylist.customParameters).forEach(([key, value]) => {
-            playlist[key] = value;
-          });
-        }
-        return playlist
+        return ctx.createPlaylist(playlistMetadata, dynamicPlaylistConfig)
       },
     });
   },
