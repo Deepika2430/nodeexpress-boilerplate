@@ -148,6 +148,17 @@ const Mutation = objectType({
         return ctx.createPlaylist(playlistMetadata, dynamicPlaylistConfig)
       },
     });
+    t.field('updatePlaylist', {
+      type: 'JSON', 
+      args: {
+        playlistId: nonNull(idArg()), 
+        playlistMetadata: PlaylistMetadata,
+        dynamicPlaylistConfig: DynamicPlaylistConfig, 
+      },
+      resolve: async (_parent, { playlistId, playlistMetadata, dynamicPlaylistConfig }, ctx) => {
+        return ctx.updatePlaylist(playlistId, playlistMetadata, dynamicPlaylistConfig);
+      },
+    });
   },
 });
 
