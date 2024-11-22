@@ -23,8 +23,29 @@ export async function createPlaylist(
         ...playlistMetadata,
     });
 
-    return formatPlaylist(await repos.createPlaylist(playlist));
+    return formatPlaylist(await repos.createPlaylist(playlist, dynamicPlaylistConfig));
 }
+
+export async function updatePlaylist(
+    playlistId: string,
+    playlistMetadata: PlaylistMetadata,
+    dynamicPlaylistConfig: DynamicPlaylistConfig,
+) {
+   
+    const mediaItems = await fetchPlaylistPreview(dynamicPlaylistConfig);
+    const convertedMediaItems = await Promise.all(
+        mediaItems.map((mediaItem) => formatMedia(mediaItem))
+    );
+   
+    const updatedPlaylist = formatPlaylist({
+        playlistId,
+        playlist: convertedMediaItems, 
+        ...playlistMetadata,
+    });
+
+    return formatPlaylist(await repos.updatePlaylist(playlistId, updatedPlaylist));
+}
+
 
 export async function getPlaylistById(playlistId: string) {
     return formatPlaylist(await repos.getPlaylistById(playlistId));
