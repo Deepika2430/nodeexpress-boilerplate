@@ -19,4 +19,4 @@ const prismaConnection = new PrismaClient({
   log: ['info'],
 })
 
-export { redisConnection, prismaConnection };
+export { redisConnection, prismaConnection, config };
