@@ -97,7 +97,7 @@ const Playlist = objectType({
     t.nonNull.string('feedid');
     t.nonNull.string('title');
     t.string('description');
-    t.list.field('playlist', { type: Media });
+    t.list.field('playlist', { type: MediaPlaylistItem });
     t.field('customParameters', {
       type: 'JSON', // Returning a JSON object containing all dynamic fields
       resolve(parent) {
@@ -131,6 +131,17 @@ const Query = objectType({
         return playlist;
       },
     });
+    t.field('showPlaylist', {
+      type: 'JSON',
+      args: { dynamicPlaylistConfig: nonNull(DynamicPlaylistConfig) },
+      resolve: async (_parent, { dynamicPlaylistConfig }, ctx: Context) => {
+        const playlist = await ctx.showPlaylist(dynamicPlaylistConfig);
+        if(!playlist) {
+          throw new Error(`Playlist not found.`);
+        }
+        return playlist;
+      }
+     })
   },
 });
 
@@ -151,12 +162,12 @@ const Mutation = objectType({
     t.field('updatePlaylist', {
       type: 'JSON', 
       args: {
-        playlistId: nonNull(idArg()), 
+        id: nonNull(idArg()), 
         playlistMetadata: PlaylistMetadata,
         dynamicPlaylistConfig: DynamicPlaylistConfig, 
       },
-      resolve: async (_parent, { playlistId, playlistMetadata, dynamicPlaylistConfig }, ctx) => {
-        return ctx.updatePlaylist(playlistId, playlistMetadata, dynamicPlaylistConfig);
+      resolve: async (_parent, { id, playlistMetadata, dynamicPlaylistConfig }, ctx) => {
+        return ctx.updatePlaylist(id, playlistMetadata, dynamicPlaylistConfig);
       },
     });
   },

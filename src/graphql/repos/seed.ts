@@ -3,7 +3,7 @@ import { PrismaClient } from '@prisma/client';
 import { logger } from '../../logger/log';
 import { config } from '../../connections';
 
-import mediaRecords from "./media-records.json"
+import mediaRecords from "./media_records.json"
 
 const prisma = new PrismaClient({
     datasources: {

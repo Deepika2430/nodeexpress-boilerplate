@@ -98,7 +98,7 @@ export interface NexusGenObjects {
   Playlist: { // root type
     description?: string | null; // String
     feedid: string; // String!
-    playlist?: Array<NexusGenRootTypes['Media'] | null> | null; // [Media]
+    playlist?: Array<NexusGenRootTypes['MediaPlaylistItem'] | null> | null; // [MediaPlaylistItem]
     title: string; // String!
   }
   Query: {};
@@ -134,17 +134,19 @@ export interface NexusGenFieldTypes {
   }
   Mutation: { // field return type
     createPlaylist: NexusGenScalars['JSON'] | null; // JSON
+    updatePlaylist: NexusGenScalars['JSON'] | null; // JSON
   }
   Playlist: { // field return type
     customParameters: NexusGenScalars['JSON'] | null; // JSON
     description: string | null; // String
     feedid: string; // String!
-    playlist: Array<NexusGenRootTypes['Media'] | null> | null; // [Media]
+    playlist: Array<NexusGenRootTypes['MediaPlaylistItem'] | null> | null; // [MediaPlaylistItem]
     title: string; // String!
   }
   Query: { // field return type
     getPlaylistById: NexusGenScalars['JSON'] | null; // JSON
     media: NexusGenScalars['JSON'] | null; // JSON
+    showPlaylist: NexusGenScalars['JSON'] | null; // JSON
   }
 }
 
@@ -168,17 +170,19 @@ export interface NexusGenFieldTypeNames {
   }
   Mutation: { // field return type name
     createPlaylist: 'JSON'
+    updatePlaylist: 'JSON'
   }
   Playlist: { // field return type name
     customParameters: 'JSON'
     description: 'String'
     feedid: 'String'
-    playlist: 'Media'
+    playlist: 'MediaPlaylistItem'
     title: 'String'
   }
   Query: { // field return type name
     getPlaylistById: 'JSON'
     media: 'JSON'
+    showPlaylist: 'JSON'
   }
 }
 
@@ -188,6 +192,11 @@ export interface NexusGenArgTypes {
       dynamicPlaylistConfig: NexusGenInputs['DynamicPlaylistConfig']; // DynamicPlaylistConfig!
       playlistMetadata: NexusGenInputs['PlaylistMetadata']; // PlaylistMetadata!
     }
+    updatePlaylist: { // args
+      dynamicPlaylistConfig?: NexusGenInputs['DynamicPlaylistConfig'] | null; // DynamicPlaylistConfig
+      id: string; // ID!
+      playlistMetadata?: NexusGenInputs['PlaylistMetadata'] | null; // PlaylistMetadata
+    }
   }
   Query: {
     getPlaylistById: { // args
@@ -195,6 +204,9 @@ export interface NexusGenArgTypes {
     }
     media: { // args
       id: string; // ID!
+    }
+    showPlaylist: { // args
+      dynamicPlaylistConfig: NexusGenInputs['DynamicPlaylistConfig']; // DynamicPlaylistConfig!
     }
   }
 }

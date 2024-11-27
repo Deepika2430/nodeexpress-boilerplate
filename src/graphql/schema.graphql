@@ -41,13 +41,14 @@ type MediaPlaylistItem {
 
 type Mutation {
   createPlaylist(dynamicPlaylistConfig: DynamicPlaylistConfig!, playlistMetadata: PlaylistMetadata!): JSON
+  updatePlaylist(dynamicPlaylistConfig: DynamicPlaylistConfig, id: ID!, playlistMetadata: PlaylistMetadata): JSON
 }
 
 type Playlist {
   customParameters: JSON
   description: String
   feedid: String!
-  playlist: [Media]
+  playlist: [MediaPlaylistItem]
   title: String!
 }
 
@@ -61,6 +62,7 @@ input PlaylistMetadata {
 type Query {
   getPlaylistById(playlistId: ID!): JSON
   media(id: ID!): JSON
+  showPlaylist(dynamicPlaylistConfig: DynamicPlaylistConfig!): JSON
 }
 
 input Sort {

@@ -1,6 +1,6 @@
 import { Media } from "./../types/types.media";
 
-export function formatMedia(rawMedia: Media | null) {
+export function formatMedia(rawMedia: Media | any) {
     if (!rawMedia) return null;
 
     const { title, mediaId, images, duration, publishDate: pubDate, tags, assets: sources, tracks, customParameters, } = rawMedia;

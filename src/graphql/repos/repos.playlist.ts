@@ -47,6 +47,7 @@ export async function updatePlaylist(playlistId: string, updatedData: any): Prom
 
 export async function getPlaylistById(playlistId: string) {
     try {
+        logger.info(playlistId);
         const playlist = await prisma.playlist.findUnique({
             where: {
                 playlistId
