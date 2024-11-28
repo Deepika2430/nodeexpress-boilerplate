@@ -11,6 +11,7 @@ import {
 import { GraphQLDateTime, GraphQLJSON } from 'graphql-scalars'; // Import scalars
 
 import { Context } from './context';
+import { playlistTask } from './worker';
 
 // Add custom scalars
 export const DateTime = asNexusMethod(GraphQLDateTime, 'date');
@@ -135,6 +136,7 @@ const Query = objectType({
       type: 'JSON',
       args: { dynamicPlaylistConfig: nonNull(DynamicPlaylistConfig) },
       resolve: async (_parent, { dynamicPlaylistConfig }, ctx: Context) => {
+        await playlistTask.postMessage(dynamicPlaylistConfig);
         const playlist = await ctx.showPlaylist(dynamicPlaylistConfig);
         if(!playlist) {
           throw new Error(`Playlist not found.`);
