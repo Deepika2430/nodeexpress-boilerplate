@@ -16,8 +16,8 @@ export const mediaItems = (async () => {
   await playlistTask.startConsumer(
     async (message: CloudEventV1<Job>) => {
       const mediaItems: Media[] = await fetchPlaylistPreview(message.dynamicPlaylistConfig as DynamicPlaylistConfig);
-      await updatePlaylist(message.id, mediaItems);
-      logger.setContext('mediaItems', mediaItems)
+      await updatePlaylist(message.id, ({playlist: mediaItems}) as unknown as JSON);
+      // logger.setContext('mediaItems', mediaItems)
     }
   );
 })();

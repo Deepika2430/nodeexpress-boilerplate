@@ -1,3 +1,5 @@
+import { InputJsonValue } from "@prisma/client/runtime/library";
+
 import { logger } from "../../logger/log";
 import { prismaConnection as prisma } from "../../connections";
 import { Media } from "../types/types.media";
@@ -27,18 +29,13 @@ export async function createPlaylist(inputPlaylist: any, playlistConfig: any): P
 
 export async function updatePlaylist(
     playlistId: string,
-    updatedData: {
-      title?: string,
-      kind?: string,
-      description?: string,
-      playlist?: Media[],
-      customParameters?: JSON
-    }
+    updatedData: JSON
   ): Promise<any> {
     try {
       const updatedPlaylist = await prisma.playlist.update({
         where: { playlistId },
-        data: updatedData
+        data: (updatedData as unknown as InputJsonValue),
+        // select: {playlistId: true, playlist: true, title: true, description: true, customParameters: true}
       });
       return updatedPlaylist;
     } catch (error: any) {

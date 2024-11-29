@@ -8,6 +8,7 @@ import {
   nonNull,
   idArg,
   asNexusMethod,
+  nullable,
 } from 'nexus';
 import { GraphQLDateTime, GraphQLJSON } from 'graphql-scalars'; // Import scalars
 import { CloudEventV1 } from 'cloudevents';
@@ -174,8 +175,8 @@ const Mutation = objectType({
       type: 'JSON',
       args: {
         id: nonNull(idArg()),
-        playlistMetadata: PlaylistMetadata,
-        dynamicPlaylistConfig: DynamicPlaylistConfig,
+        playlistMetadata: nullable(PlaylistMetadata),
+        dynamicPlaylistConfig: nullable(DynamicPlaylistConfig),
       },
       resolve: async (_parent, { id, playlistMetadata, dynamicPlaylistConfig }, ctx) => {
         await playlistTask.postMessage({ id, dynamicPlaylistConfig } as unknown as CloudEventV1<Job>);
