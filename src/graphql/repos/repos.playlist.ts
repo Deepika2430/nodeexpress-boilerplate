@@ -1,5 +1,6 @@
 import { logger } from "../../logger/log";
 import { prismaConnection as prisma } from "../../connections";
+import { Media } from "../types/types.media";
 
 export async function createPlaylist(inputPlaylist: any, playlistConfig: any): Promise<any> {
     try {
@@ -24,26 +25,28 @@ export async function createPlaylist(inputPlaylist: any, playlistConfig: any): P
     }
 }
 
-export async function updatePlaylist(playlistId: string, updatedData: any): Promise<any> {
-    try {
-       
-        const { title, kind, description, playlist, ...customParameters } = updatedData;
-        const updatedPlaylist = await prisma.playlist.update({
-            where: { playlistId },
-            data: {
-                title,
-                type: kind,
-                description,
-                playlist,
-                customParameters,
-            },
-        });
-
-        return updatedPlaylist;
-    } catch (error: any) {
-        logger.error(`Error updating playlist with ID ${playlistId}: ${error.message}`);
+export async function updatePlaylist(
+    playlistId: string,
+    updatedData: {
+      title?: string,
+      kind?: string,
+      description?: string,
+      playlist?: Media[],
+      customParameters?: JSON
     }
-}
+  ): Promise<any> {
+    try {
+      const updatedPlaylist = await prisma.playlist.update({
+        where: { playlistId },
+        data: updatedData
+      });
+      return updatedPlaylist;
+    } catch (error: any) {
+      logger.error(
+        `Error updating playlist with ID ${playlistId}: ${error.message}`
+      );
+    }
+  }
 
 export async function getPlaylistById(playlistId: string) {
     try {

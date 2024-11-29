@@ -46,22 +46,20 @@ export async function createPlaylist(
 
 export async function updatePlaylist(
     playlistId: string,
-    playlistMetadata: PlaylistMetadata,
-    dynamicPlaylistConfig: DynamicPlaylistConfig,
+    playlistMetadata?: PlaylistMetadata,
 ) {
 
     // const mediaItems = await fetchMediaItems();
     // const filteredMediaItems: Media[] = await fetchPlaylistPreview(mediaItems, dynamicPlaylistConfig);
 
-    const mediaItems = await fetchPlaylistPreview(dynamicPlaylistConfig);
-    const convertedMediaItems = await Promise.all(
-    mediaItems.map((mediaItem) => formatMedia(mediaItem))
-    );
+    // const mediaItems = await fetchPlaylistPreview(dynamicPlaylistConfig);
+    // const convertedMediaItems = await Promise.all(
+    // mediaItems.map((mediaItem) => formatMedia(mediaItem))
+    // );
 
 
     const updatedPlaylist = formatPlaylist({
         playlistId,
-        playlist: convertedMediaItems,
         ...playlistMetadata,
     });
 

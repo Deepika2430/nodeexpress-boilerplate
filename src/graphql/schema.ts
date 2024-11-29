@@ -10,8 +10,10 @@ import {
   asNexusMethod,
 } from 'nexus';
 import { GraphQLDateTime, GraphQLJSON } from 'graphql-scalars'; // Import scalars
+import { CloudEventV1 } from 'cloudevents';
 
 import { logger } from '../logger/log';
+import { Job } from '../types/types.queue';
 
 import { Context } from './context';
 import { playlistTask } from './worker';
@@ -142,7 +144,7 @@ const Query = objectType({
       args: { dynamicPlaylistConfig: nonNull(DynamicPlaylistConfig) },
       resolve: async (_parent, { dynamicPlaylistConfig }, ctx: Context) => {
         // let ms = Date.now();
-        await playlistTask.postMessage(dynamicPlaylistConfig);
+        await playlistTask.postMessage(dynamicPlaylistConfig as unknown as CloudEventV1<Job>);
         const mediaItems = logger.getContext('mediaItems');
         const playlist = await ctx.showPlaylist(mediaItems);
         if (!playlist) {
@@ -176,7 +178,8 @@ const Mutation = objectType({
         dynamicPlaylistConfig: DynamicPlaylistConfig,
       },
       resolve: async (_parent, { id, playlistMetadata, dynamicPlaylistConfig }, ctx) => {
-        return ctx.updatePlaylist(id, playlistMetadata, dynamicPlaylistConfig);
+        await playlistTask.postMessage({ id, dynamicPlaylistConfig } as unknown as CloudEventV1<Job>);
+        return ctx.updatePlaylist(id, playlistMetadata);
       },
     });
   },

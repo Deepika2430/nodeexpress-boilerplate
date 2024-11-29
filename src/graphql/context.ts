@@ -6,7 +6,7 @@ import { PlaylistMetadata } from "./types/types.playlist";
 export type Context = {
     getMedia: (mediaId: string) => Promise<any>;
     createPlaylist: (playlistMetadata: PlaylistMetadata, playlist: any) => Promise<any>;
-    updatePlaylist: (playlistId: string, playlistMetadata: PlaylistMetadata, playlist: any) => Promise<any>;
+    updatePlaylist: (playlistId: string, playlistMetadata?: PlaylistMetadata, playlist?: any) => Promise<any>;
     getPlaylistById: (playlistId: string) => Promise<any>;
     showPlaylist: (mediaItems: Media[]) => Promise<any>;
 };
