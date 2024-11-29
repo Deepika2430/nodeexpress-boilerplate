@@ -33,9 +33,9 @@ model Media {
 model Playlist {
   playlistId       String   @id @default(uuid()) @unique
   title            String
-  type             String
+  kind             String
   playlist         Json[]     // JSON array for the playlist
-  description      String? 
+  description      String?
   customParameters Json       // JSON array for custom parameters
   playlistConfig   Json     @default("{}")
   createdAt        DateTime @default(now())

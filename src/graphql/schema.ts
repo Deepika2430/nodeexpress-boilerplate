@@ -1,5 +1,6 @@
 import path from 'path';
 
+
 import {
   objectType,
   inputObjectType,
@@ -10,8 +11,11 @@ import {
 } from 'nexus';
 import { GraphQLDateTime, GraphQLJSON } from 'graphql-scalars'; // Import scalars
 
+import { logger } from '../logger/log';
+
 import { Context } from './context';
 import { playlistTask } from './worker';
+
 
 // Add custom scalars
 export const DateTime = asNexusMethod(GraphQLDateTime, 'date');
@@ -68,7 +72,7 @@ const DynamicPlaylistConfig = inputObjectType({
         }
       })
     });
-    t.field('customParameters',{
+    t.field('customParameters', {
       type: inputObjectType({
         name: 'customParameters',
         definition(t) {
@@ -103,6 +107,7 @@ const Playlist = objectType({
       type: 'JSON', // Returning a JSON object containing all dynamic fields
       resolve(parent) {
         const { feedid, title, description, playlist, ...customParameters } = parent;
+        console.log(feedid, title, description, playlist);
         return customParameters;
       },
     });
@@ -136,14 +141,16 @@ const Query = objectType({
       type: 'JSON',
       args: { dynamicPlaylistConfig: nonNull(DynamicPlaylistConfig) },
       resolve: async (_parent, { dynamicPlaylistConfig }, ctx: Context) => {
+        // let ms = Date.now();
         await playlistTask.postMessage(dynamicPlaylistConfig);
-        const playlist = await ctx.showPlaylist(dynamicPlaylistConfig);
-        if(!playlist) {
+        const mediaItems = logger.getContext('mediaItems');
+        const playlist = await ctx.showPlaylist(mediaItems);
+        if (!playlist) {
           throw new Error(`Playlist not found.`);
         }
         return playlist;
       }
-     })
+    })
   },
 });
 
@@ -162,11 +169,11 @@ const Mutation = objectType({
       },
     });
     t.field('updatePlaylist', {
-      type: 'JSON', 
+      type: 'JSON',
       args: {
-        id: nonNull(idArg()), 
+        id: nonNull(idArg()),
         playlistMetadata: PlaylistMetadata,
-        dynamicPlaylistConfig: DynamicPlaylistConfig, 
+        dynamicPlaylistConfig: DynamicPlaylistConfig,
       },
       resolve: async (_parent, { id, playlistMetadata, dynamicPlaylistConfig }, ctx) => {
         return ctx.updatePlaylist(id, playlistMetadata, dynamicPlaylistConfig);

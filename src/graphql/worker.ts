@@ -14,10 +14,8 @@ export const mediaItems = (async () => {
   playlistTask = new BullMQTask("playlistTask");
   await playlistTask.startConsumer(
     async (message: CloudEventV1<Job>) => {
-          const mediaItems: Media[] = await fetchPlaylistPreview(message as DynamicPlaylistConfig);
-        //   Update playlist mediaItems
-          logger.info(mediaItems);
-          logger.info("Its working!");
+      const mediaItems: Media[] = await fetchPlaylistPreview(message as DynamicPlaylistConfig);
+      logger.setContext('mediaItems', mediaItems)
     }
   );
 })();
