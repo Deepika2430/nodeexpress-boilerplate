@@ -10,4 +10,4 @@ COPY . .
 
 RUN yarn build
 
-CMD ["sh", "-c", "yarn setup && ngit ode dist/src/index.js server"]
+CMD ["sh", "-c", "yarn setup && git node dist/src/index.js server"]
